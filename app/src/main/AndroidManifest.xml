@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IntentBaru">
         <activity
+            android:name=".MoveForResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
             android:name=".MoveWithDataActivity"
             android:exported="true">
             <intent-filter>
